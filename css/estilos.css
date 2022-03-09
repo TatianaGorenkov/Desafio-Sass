@@ -1,0 +1,21 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+
+body {
+  text-align: center; }
+  body .MenuBar {
+    padding-top: 25px; }
+    body .MenuBar ul {
+      display: flex;
+      justify-content: space-evenly; }
+      body .MenuBar ul li {
+        list-style: none; }
+        body .MenuBar ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 25px; }
+          body .MenuBar ul li a:hover {
+            color: grey; }
+  body h1 {
+    font-weight: lighter;
+    color: #ff00d4; }

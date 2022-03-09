@@ -1,0 +1,46 @@
+
+@import "tipografia";
+$color_titulo: #ff00d4;
+body {
+    text-align: center;
+    .MenuBar {
+        padding-top: 25px;
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            li {
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 25px;
+
+                    &:hover {
+                        color: grey;
+                    }
+                }
+                
+            }
+        }
+        
+        
+    }
+
+    h1 {
+        font-weight: lighter;
+        color: $color_titulo;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
